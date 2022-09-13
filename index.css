@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+   background-color: black; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+
+#body1{
+    box-sizing: border-box;
+    background-color: #1F2937;
+    height: 500px;
+    width: 500px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    line-height: 10px;
+    padding: 100px 50px;
+    border-radius: 30px;
+}
+
+
+#header-1{
+    padding: 1px;
+    
+}
+
+#header-2{
+    color: #4ADF86;
+   
+}
+
+#para-1{
+    color: #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    padding: 7px 0px;
+    
+}
+
+#length{
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#generatePassword{
+    height: 42px;
+    width:  191px;
+    background-color: #10B981;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin: 30px 0px;
+}
+
+#generatePassword :hover{
+    cursor: pointer;
+}
+
+#passwords{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+#password-1{
+    background-color: #273549;
+    width: 200px;
+    height: 39px;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
