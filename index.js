@@ -4,15 +4,22 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let password1 = document.getElementById("password-1")
 let firstPassword = ""
 
-//let passwordLength = document.getElementById("passwordLength")
+let passwordLength = document.getElementById("passwordLength")
 
 
 function generatePassword(){
+
+    if(passwordLength.value>40){
+        alert("Number exceeded! Please input below 40 only.")
+        firstPassword = ""
+    }
     
-    for(let a = 0; a < 15; a++){
+    else{
+    for(let a = 0; a < passwordLength.value; a++){
         let b = Math.floor(Math.random() * characters.length)
         firstPassword += characters[b] 
         password1.textContent = firstPassword
     }
     firstPassword = ""
+}
 }

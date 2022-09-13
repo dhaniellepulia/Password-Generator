@@ -69,12 +69,22 @@ body{
 
 #password-1{
     background-color: #273549;
-    width: 200px;
+    width: 500px;
     height: 39px;
     color: #55F991;
     font-family: 'Inter', sans-serif;
     text-align: center;
     padding-top: 15px;
     border-radius: 5px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 30px;
 }
 
+#passwordLength{
+    padding: 5px;
+    border: 1px solid #55F991;
+    margin-left: 10px;
+    width: 100px;
+}
